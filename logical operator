@@ -1,0 +1,19 @@
+# logical AND...........
+
+x = True
+
+y = False
+
+result_and= x and y
+print(result_and)
+
+#logical or operator...........
+x = True
+y = False
+result_or = x or y
+print(result_or)
+
+#logical not operator...........
+x = True
+result_not = not x
+print(result_not)

@@ -1,0 +1,54 @@
+#comparision operators.............(==) compares the values on either side of the operator and checks for equality. If both values are equal, it returns True; otherwise, it returns False.
+
+a = 10 
+b = 20
+c = a==b
+print(c)
+
+#another example
+a = 10
+b = 10
+c = a==b
+print(c)
+
+#(!=) compares the values on either side of the operator and checks for inequality. If both values are not equal, it returns True; otherwise, it returns False.
+a = 10
+b = 20
+c = a!=b
+print(c)
+
+#(>) compares the values on either side of the operator and checks if the left value is greater than the right value. If it is, it returns True; otherwise, it returns False.
+num1 = 30
+num2 = 20
+c = num1 > num2
+print(c)
+
+#(<) compares the values on either side of the operator and checks if the left value is less than the right value. If it is, it returns True; otherwise, it returns False.
+num1 = 30
+num2 = 20
+c = num1 < num2
+print(c)
+
+#(>=) compares the values on either side of the operator and checks if the left value is greater than or equal to the right value. If it is, it returns True; otherwise, it returns False.
+num1 = 10
+num2 = 20
+c = num1 >= num2
+print(c)
+
+#another example
+num1 = 20
+num2 = 20
+c = num1 >= num2
+print(c)
+
+#(<=) compares the values on either side of the operator and checks if the left value is less than or equal to the right value. If it is, it returns True; otherwise, it returns False.
+num1 = 10
+num2 = 20
+c = num1 <= num2
+print(c)
+
+#another example
+num1 = 20
+num2 = 20
+c = num1 <= num2
+print(c)

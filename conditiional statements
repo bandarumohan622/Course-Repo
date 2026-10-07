@@ -1,0 +1,42 @@
+#write a python program to check if a given interger is even or odd.
+num=int(input("enter num"))
+if num%2==0:
+    print('even number')
+else:
+    print('odd number')
+
+#write a program to check if a given number is positive, negitive or 0.
+n=eval(input("enter n value"))
+if n>=0:
+    if n==0:
+          print('no is zero')
+    else:
+          print('positive no')
+else:
+    print('negative no')
+
+
+#write a python program to check whether a given letter is a vowel or consonant.
+letter=str(input('enter letter'))
+vowel='aeiouAEIOU'
+if letter in vowel:
+     print('vowel')
+else:
+     print('consonent')
+
+
+#write a python program to check if a number is divisible by both 5 and 11.
+num=int(input('enter num value'))
+if num%5==0 and num%11==0:
+     print('num is divisible by 5 and 11')
+else:
+     print('num is not divisible by 5 and 11')
+
+
+
+#write a python program to check if a given year is a leap year or not
+n=eval(input('enter n value'))
+if n%4==0 and n%100!=0:              #or (n%400==0:)
+     print('leap year')
+else:
+     print('not leap year')

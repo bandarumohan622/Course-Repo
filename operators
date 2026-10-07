@@ -1,0 +1,50 @@
+#college coders.................
+#operators in python - arithmetic operator
+
+a = 10
+b = 20
+print(a+b) #addition
+print(a-b) #subtraction
+print(a*b) #multiplication
+print(a/b) #division
+print(a%b) #modulus
+print(a**b) #exponentiation
+print(a//b) #floor division
+
+
+#swaroop python.........
+a = 10
+b = 20
+result-addition = a + b
+print(result)
+
+#subtraction
+result-subtraction = a - b
+print(result)
+
+#multiplication
+result-multiplication = a * b
+print(result)
+
+#division
+result-division = a / b
+print(result)
+
+
+#floor division
+a = 10
+b = 3
+result = a // b
+print(result)
+
+#modulus
+a = 10
+b = 3
+result = a % b
+print(result)
+
+#exponentiation
+a = 10  
+b = 3
+result = a ** b    
+print(result)

@@ -1,0 +1,28 @@
+#is identity............
+#variable with same value are stored in same memory location
+num1 = "john"
+num2 = "john"
+result_is = num1 is num2
+print(result_is)  
+#variable with different value are stored in different memory location
+num1 = "john"
+num2 = "doe"
+result_is = num1 is num2
+print(result_is)  
+
+
+
+
+#is not identity............
+#variable with same value are stored in same memory location
+num1 = "john"
+num2 = "john"
+result_is_not = num1 is not num2
+print(result_is_not)
+
+
+#variable with different value are stored in different memory location
+num1 = "john"
+num2 = "doe"
+result_is_not = num1 is not num2
+print(result_is_not)

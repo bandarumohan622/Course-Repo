@@ -1,0 +1,22 @@
+#string.................
+name = "bandaru mohan"
+print(name)
+
+
+
+
+x='single quotes'
+print(type(x))
+
+
+
+
+x="double quotes, you can use 'single quotes' inside double quotes"
+print(type(x))
+
+
+
+
+
+x='''triple quotes, you can use 'single quotes' and "double quotes" inside triple quotes'''
+print(type(x))

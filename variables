@@ -1,0 +1,35 @@
+#variavbles in python - store data using name
+#college coders............
+
+name = "mohan"
+age = 20
+percentage = 13.5
+iscorrect = False
+
+#print individual variables
+print(name)
+print(age)
+print(percentage)
+print(iscorrect)
+
+# print all variables in one line(by using formatting strings)
+
+print(f"{name} - {age} - {percentage} - {iscorrect}")
+
+#another example of variables(changing the value of variable)
+x = 10
+print(x)
+x = 20
+print(x)
+
+#another example
+x = 10
+print(x)
+x="mohan"
+print(x)
+
+
+
+#swaroop python.........
+a = 10
+#(a is a variable which is storing integer value 10)

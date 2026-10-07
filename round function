@@ -1,0 +1,16 @@
+#round function..........................
+
+print(round(5), type(round(5)))
+print(round(5.3), type(round(5.3)))
+print(round(5.84), type(round(5.84)))
+print(round(5.84, 1), type(round(5.84, 1)))
+print(round(5.84, 2), type(round(5.84, 2)))
+print(round(5.7), type(round(5.7)))
+
+#round can have positive and negative values for the second argument. If the second argument is positive, it rounds to that many decimal places. If it is negative, it rounds to the left of the decimal point.
+print(round(589,2), type(round(589,2)))
+print(round(589,0), type(round(589,0)))
+print(round(589,-1), type(round(589,-1)))#for round(number, -1), returns colsest multiple of 10**n to the num
+print(round(589,-2), type(round(589,-2)))#for round(number, -2), returns colsest multiple of 10**n to the num
+print(round(589,-3), type(round(589,-3)))#for round(number, -3), returns colsest multiple of 10**n to the num
+print(round(589,-4), type(round(589,-4)))#for round(number, -4), returns colsest multiple of 10**n to the num

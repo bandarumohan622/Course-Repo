@@ -1,0 +1,15 @@
+#membership in..........
+fruits =["apple", "banana", "orange", "graph"]
+
+
+
+#check if "apple" is in the list of fruits
+is_apple_in_list = "apple" in fruits
+print(is_apple_in_list)
+
+
+#ckeck if watermelon is in the list of fruits
+is_watermelon_in_list = "watermelon" in fruits
+print(is_watermelon_in_list)
+
+

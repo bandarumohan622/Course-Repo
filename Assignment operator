@@ -1,0 +1,30 @@
+#assignment operator...........(=) assigns the value on the right to the variable on the left
+
+a = 10
+b = 20
+a = a+b
+print(a)
+
+#assignment(+=) adds the right operand to the left operand and assigns the result to the left operand
+a=10
+b=20
+a+=b #a=a+b
+print(a)
+
+#assignment(-=) subtracts the right operand from the left operand and assigns the result to the left operand
+a=10
+b=20
+a-=b #a=a-b
+print(a)
+
+#modulus assignment(%=) takes modulus using two operands and assigns the result to the left operand
+a=12
+b=5
+a%=b #a=a%b
+print(a)
+
+#exponentiation assignment(**=) performs exponential (power) calculation on operators and assigns value to the left operand
+a=2
+b=3
+a**=b #a=a**b
+print(a)
