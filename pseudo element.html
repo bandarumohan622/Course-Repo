@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internal Style</title>
+       
+        <style>
+           a{
+            font-size: 30px;
+            text-decoration: none;
+           }
+           a:visited{
+            color:green;
+           }
+           a{
+               color:brown;
+           }
+           a:active{
+            color:red;
+           }
+           a:hover{
+            color:blue;
+           }
+           p:hover{
+                  background-color:black;
+                  color:white;
+
+           }
+           #id2::first-letter{
+            color: red;
+            font-size: 50px;
+            font-weight:bold;
+
+           }
+         
+           #id2::first-line{
+            color: blueviolet;
+           }
+           #id2::after{
+            content:"😊❤️😍";
+           }
+           #id2::before{
+            content: "😘💕😁";
+           }
+           #id2::selection{
+            background-color: red;
+            color: yellow;
+           }
+           #id2::marker{
+            background-color: azure;
+            color: beige;
+           }
+           
+           
+        </style>
+    </head>
+    <body>
+       <a href="home.html">home</a>
+       <a href="about.html">about</a>
+       <a href="services.html">sevices</a>
+       <p id="id1">lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+       <p id="id2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minima fuga officiis non nam, corporis eaque placeat numquam, optio impedit molestiae laudantium doloremque quo rerum mollitia nemo cum libero? Iure.</p>
+
+     </body>
+</html>
